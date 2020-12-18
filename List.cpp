@@ -67,9 +67,7 @@ Node<T>* List<T>::erase(Node<T>* it) {
 
 template<typename T>
 void List<T>::swap(Node<T>* ptr1, Node<T>* ptr2) {
-	Node<T>* temp = ptr1;
-	ptr1 = ptr2;
-	ptr2 = temp;
+	//***
 }
 
 template<typename T>
